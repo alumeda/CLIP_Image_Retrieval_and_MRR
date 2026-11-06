@@ -1,4 +1,4 @@
-# CLIP-Image-Retrieval-and-MRR
+# CLIP Image Retrieval and MRR
 
 **Overview:** 
 This program implements a text-to-image retrieval system using a pretrained CLIP model, specifically the Italian version of Hybrid CLIP. It downloads and processes the MS COCO dataset, which contains images paired with Italian captions, and converts both the images and captions into numerical embeddings (vectors) using the model's image and text encoders. The program normalizes these embeddings and calculates their cosine similarity to determine how closely each image matches a given text description.
